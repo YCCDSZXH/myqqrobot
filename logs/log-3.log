@@ -1,0 +1,36 @@
+[92m2022-03-20 11:18:40 I/main: Starting mirai-console...[0m[m
+[92m2022-03-20 11:18:41 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-03-20 11:18:41 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-03-20 11:18:41 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-03-20 11:18:41 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-03-20 11:18:41 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-03-20 11:18:41 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Loading configuration...[0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Loading storage provider... [H2][0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Loading internal permission managers...[0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Performing initial data load...[0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Registering internal users....[0m[m
+[92m2022-03-20 11:18:42 I/LuckPerms: Successfully enabled. (took 1097ms)[0m[m
+[92m2022-03-20 11:18:42 I/plugin: Successfully loaded plugin LuckPerms v2.10.0-dev-6+null[0m[m
+[92m2022-03-20 11:18:43 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-03-20 11:18:43 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-03-20 11:18:43 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-03-20 11:18:43 I/main: Loaded PermissionService from plugin LuckPerms[0m[m
+[92m2022-03-20 11:18:43 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-03-20 11:18:43 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-03-20 11:18:43 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:18:44 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-03-20 11:18:44 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-03-20 11:18:44 I/Mirai HTTP API: Http api server is running with verifyKey: Aa11221133[0m[m
+[92m2022-03-20 11:18:44 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-03-20 11:18:44 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:18:44 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-03-20 11:18:44 I/main: Auto-login 3424719593[0m[m
+[91m2022-03-20 11:18:44 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-03-20 11:18:45 I/Bot.3424719593: Loaded account secrets from local cache.[0m[m
+[92m2022-03-20 11:18:45 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-20 11:18:45 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-20 11:18:46 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-20 11:18:46 I/Bot.3424719593: Bot login successful.[0m[m
+[92m2022-03-20 11:18:46 I/main: mirai-console started successfully.[0m[m
+[91m2022-03-20 11:19:40 W/console: Closing input service...[0m[m

@@ -1,0 +1,116 @@
+[92m2022-03-20 11:20:33 I/main: Starting mirai-console...[0m[m
+[92m2022-03-20 11:20:34 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-03-20 11:20:34 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-03-20 11:20:34 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-03-20 11:20:34 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-03-20 11:20:34 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-03-20 11:20:34 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-03-20 11:20:35 I/LuckPerms: Loading configuration...[0m[m
+[92m2022-03-20 11:20:35 I/LuckPerms: Loading storage provider... [H2][0m[m
+[92m2022-03-20 11:20:35 I/LuckPerms: Loading internal permission managers...[0m[m
+[92m2022-03-20 11:20:36 I/LuckPerms: Performing initial data load...[0m[m
+[92m2022-03-20 11:20:36 I/LuckPerms: Registering internal users....[0m[m
+[92m2022-03-20 11:20:36 I/LuckPerms: Successfully enabled. (took 1175ms)[0m[m
+[92m2022-03-20 11:20:36 I/plugin: Successfully loaded plugin LuckPerms v2.10.0-dev-6+null[0m[m
+[92m2022-03-20 11:20:36 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-03-20 11:20:36 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-03-20 11:20:36 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-03-20 11:20:36 I/main: Loaded PermissionService from plugin LuckPerms[0m[m
+[92m2022-03-20 11:20:36 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-03-20 11:20:36 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-03-20 11:20:36 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:20:37 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-03-20 11:20:37 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-03-20 11:20:37 I/Mirai HTTP API: Http api server is running with verifyKey: Aa11221133[0m[m
+[92m2022-03-20 11:20:37 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-03-20 11:20:37 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:20:37 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-03-20 11:20:37 I/main: Auto-login 3424719593[0m[m
+[91m2022-03-20 11:20:37 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-03-20 11:20:38 I/Bot.3424719593: Loaded account secrets from local cache.[0m[m
+[92m2022-03-20 11:20:38 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-20 11:20:38 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-20 11:20:39 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-20 11:20:39 I/Bot.3424719593: Bot login successful.[0m[m
+[92m2022-03-20 11:20:39 I/main: mirai-console started successfully.[0m[m
+[0m2022-03-20 12:31:16 V/Bot.3424719593: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-03-20 12:31:16 V/Bot.3424719593: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-03-20 12:31:23 V/Bot.3424719593: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-03-20 12:31:23 V/Bot.3424719593: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-03-20 12:31:28 V/Bot.3424719593: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-03-20 12:31:28 V/Bot.3424719593: Friend(2598810411) <- 正在登录...[0m[m
+[0m2022-03-20 12:31:29 V/Bot.3424719593: Friend(2598810411) <- 登录成功,开始查询课程\n查询课程成功!!!您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n请输入需要完成的课程序号\n（上方[]内的数字）: [0m[m
+[0m2022-03-20 12:31:33 V/Bot.3424719593: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-03-20 12:31:33 V/Bot.3424719593: Friend(2598810411) <- [NO. 0]  按顺序完成全部单元课程\n[NO. 1]  [已开放]  Unit 01  Unit 1 College Life\n[NO. 2]  [已开放]  Unit 02  Unit 2 Love and Friendship\n[NO. 3]  [已开放]  Unit 03  Unit 3 Power of Music\n[NO. 4]  [已开放]  Unit 04  Unit 4 Driving Forces of Sports\n[NO. 5]  [已开放]  Unit 05  Unit 5 To Be Creative\n[NO. 6]  [已开放]  Unit 06  Unit 6 Pleasure of Reading\n[NO. 7]  [已开放]  Unit 07  Unit 7 Effective Communication\n[NO. 8]  [已开放]  Unit 08  Unit 8 Growing Pains\n请选择需要完成的单元序号（上方[]内的数字，输入0为按顺序刷全部单元）:  [0m[m
+[0m2022-03-20 12:31:36 V/Bot.3424719593: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-03-20 12:31:36 V/Bot.3424719593: Friend(2598810411) <- 模式1:每个练习指定正确率，请直接输入指定的正确率\n如:希望每个练习正确率均为100，则输入 100\n\n模式2:每个练习随机正确率，请输入正确率上下限并用英文逗号隔开\n如:希望每个练习正确率为70～100，则输入 70,100\n\n请严格按照以上格式输入每个练习的正确率: [0m[m
+[0m2022-03-20 12:31:39 V/Bot.3424719593: 一次充电数周续航(2598810411) -> 100[0m[m
+[0m2022-03-20 12:31:39 V/Bot.3424719593: Friend(2598810411) <- [!!跳过!!]0[!!跳过!!]1[!!跳过!!]2[!!跳过!!]3[!!跳过!!]4[!!跳过!!]5[!!跳过!!]6[!!跳过!!]7[!!跳过!!]8[!!跳过!!]9[!!跳过!!]10[!!跳过!!]11[!!跳过!!]12[!!跳过!!]13[!!跳过!!]14[!!跳过!!]15[!!跳过!!]16[!!跳过!!]17[!!跳过!!]18[!!跳过!!]19[!!跳过!!]20[!!跳过!!]21\n本单元运行完毕![0m[m
+[0m2022-03-20 12:31:40 V/Bot.3424719593: Friend(2598810411) <- 您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n[0m[m
+[0m2022-03-20 12:32:33 V/Bot.3424719593: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-03-20 12:33:04 V/Bot.3424719593: 骑木马的木头人(3194287962) -> welearn[0m[m
+[0m2022-03-20 12:33:04 V/Bot.3424719593: Friend(3194287962) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-03-20 12:33:23 V/Bot.3424719593: 骑木马的木头人(3194287962) -> 111[0m[m
+[0m2022-03-20 12:33:23 V/Bot.3424719593: Friend(3194287962) <- 请输入密码[0m[m
+[0m2022-03-20 12:33:24 V/Bot.3424719593: 骑木马的木头人(3194287962) -> 111[0m[m
+[0m2022-03-20 12:33:24 V/Bot.3424719593: Friend(3194287962) <- 正在登录...[0m[m
+[31m2022-03-20 12:39:02 E/MAH Access: java.util.concurrent.CancellationException: Channel has been cancelled
+java.util.concurrent.CancellationException: Channel has been cancelled
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at io.ktor.utils.io.ExceptionUtilsJvmKt$createConstructor$$inlined$safeCtor$3.invoke(ExceptionUtilsJvm.kt:103)
+	at io.ktor.utils.io.ExceptionUtilsJvmKt$createConstructor$$inlined$safeCtor$3.invoke(ExceptionUtilsJvm.kt:90)
+	at io.ktor.utils.io.ExceptionUtilsJvmKt.tryCopyException(ExceptionUtilsJvm.kt:45)
+	at io.ktor.utils.io.ByteBufferChannelKt.rethrowClosed(ByteBufferChannel.kt:2456)
+	at io.ktor.utils.io.ByteBufferChannelKt.access$rethrowClosed(ByteBufferChannel.kt:1)
+	at io.ktor.utils.io.ByteBufferChannel.setupStateForWrite$ktor_io(ByteBufferChannel.kt:252)
+	at io.ktor.utils.io.ByteBufferChannel.copyDirect$ktor_io(ByteBufferChannel.kt:3420)
+	at io.ktor.utils.io.ByteBufferChannel$copyDirect$1.invokeSuspend(ByteBufferChannel.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.util.concurrent.CancellationException: Channel has been cancelled
+	at io.ktor.utils.io.ByteBufferChannel.cancel(ByteBufferChannel.kt:181)
+	at io.ktor.utils.io.ByteReadChannelKt.cancel(ByteReadChannel.kt:231)
+	at mirai-api-http-2.4.0.jar//io.ktor.server.cio.CIOApplicationResponse$respondUpgrade$2.invoke(CIOApplicationResponse.kt:97)
+	at mirai-api-http-2.4.0.jar//io.ktor.server.cio.CIOApplicationResponse$respondUpgrade$2.invoke(CIOApplicationResponse.kt:16)
+	at kotlinx.coroutines.InvokeOnCompletion.invoke(JobSupport.kt:1391)
+	at kotlinx.coroutines.JobSupport.notifyCompletion(JobSupport.kt:1519)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:323)
+	at kotlinx.coroutines.JobSupport.finalizeFinishingState(JobSupport.kt:240)
+	at kotlinx.coroutines.JobSupport.continueCompleting(JobSupport.kt:935)
+	at kotlinx.coroutines.JobSupport.access$continueCompleting(JobSupport.kt:27)
+	at kotlinx.coroutines.JobSupport$ChildCompletion.invoke(JobSupport.kt:1155)
+	at kotlinx.coroutines.JobSupport.notifyCompletion(JobSupport.kt:1519)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:323)
+	at kotlinx.coroutines.JobSupport.finalizeFinishingState(JobSupport.kt:240)
+	at kotlinx.coroutines.JobSupport.tryMakeCompletingSlowPath(JobSupport.kt:906)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:863)
+	at kotlinx.coroutines.JobSupport.makeCompletingOnce$kotlinx_coroutines_core(JobSupport.kt:828)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	... 4 more
+[0m[m
+[0m2022-03-20 12:39:27 V/Bot.3424719593: 骑木马的木头人(3194287962) -> welearn[0m[m
+[0m2022-03-20 12:39:27 V/Bot.3424719593: Friend(3194287962) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-03-20 12:39:31 V/Bot.3424719593: 骑木马的木头人(3194287962) -> 111[0m[m
+[0m2022-03-20 12:39:31 V/Bot.3424719593: Friend(3194287962) <- 请输入密码[0m[m
+[0m2022-03-20 12:39:33 V/Bot.3424719593: 骑木马的木头人(3194287962) -> 111[0m[m
+[0m2022-03-20 12:39:33 V/Bot.3424719593: Friend(3194287962) <- 正在登录...[0m[m
+[0m2022-03-20 12:39:33 V/Bot.3424719593: Friend(3194287962) <- 登录失败\n[0m[m
+[0m2022-03-20 12:42:39 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 有人用welearn吗[0m[m
+[0m2022-03-20 12:42:46 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 喵三OAO(1163772509) -> 不用[0m[m
+[0m2022-03-20 12:43:34 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 那个机器人可以刷welearn[0m[m
+[0m2022-03-20 12:44:36 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 私聊[mirai:at:3424719593] 发welearn就好了[0m[m
+[0m2022-03-20 12:51:35 V/Bot.3424719593: 一次充电数周续航(2598810411) -> /status[0m[m
+[0m2022-03-20 12:52:39 V/Bot.3424719593: 一次充电数周续航(2598810411) -> /status[0m[m
+[0m2022-03-20 12:52:39 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  140.0MB  | 32.0MB | 106.29MB | 496.0MB\nNon-Heap Memory: 110.43MB  | 7.31MB | 105.57MB |   -1   [0m[m
+[0m2022-03-20 12:52:48 V/Bot.3424719593: 一次充电数周续航(2598810411) -> /help[0m[m
+[0m2022-03-20 12:52:48 V/Bot.3424719593: Friend(2598810411) <- ◆ /autoLogin add <account> <password> [passwordKind]    # 添加自动登录, passwordKind 可选 PLAIN 或 MD5\n  /autoLogin clear    # 清除所有配置\n  /autoLogin list    # 查看自动登录账号列表\n  /autoLogin remove <account>    # 删除一个账号\n  /autoLogin removeConfig <account> <configKey>    # 删除一个账号的一个配置项\n  /autoLogin setConfig <account> <configKey> <value>    # 设置一个账号的一个配置项\n◆ /help     # 查看指令帮助\n◆ /login <qq> [password] [protocol]    # 登录一个账号\n◆ /logout <qq>    # 登出一个账号\n◆ /status     # 获取 Mirai Console 运行状态\n◆ /stop     # 关闭 Mirai Console\n◆ /mclc <MCL命令行参数>\n◆ /mcl info <package>    # 获取包信息\n  /mcl install <package> [channel] [type] [version] [lock or unlock]    # 安装包\n  /mcl list    # 列出已安装的包\n  /mcl remove <package> [delete]    # 移除包\n  /mcl run <script>    # 执行脚本load阶段\n  /mcl update    # 执行updater脚本\n◆ /permission\n◆ /lp\n◆ \n◆ /lpe shutdown    # fast shutdown\n  /lpe startup    # restart[0m[m
+[0m2022-03-20 12:53:23 V/Bot.3424719593: Event: BotOfflineEvent.Active(bot=Bot(3424719593), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@44b24840, reconnect=false)[0m[m

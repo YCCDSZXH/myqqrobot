@@ -1,0 +1,82 @@
+[0m2022-03-24 10:15:35 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-03-24 10:15:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-03-24 10:15:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-03-24 10:15:36 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-03-24 10:15:36 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-03-24 10:15:37 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2022-03-24 17:32:00 V/: Send: wtlogin.exchange_emp(wtlogin.exchange_emp)[0m
+[92m2022-03-24 17:32:00 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2022-03-24 17:32:00 V/: Recv: wtlogin.exchange_emp[0m
+[91m2022-03-24 18:50:03 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:395)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:348)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 7 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:502)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2022-03-24 18:50:16 V/: Loading server list from cache.[0m
+[92m2022-03-24 18:50:18 I/: Server list: 101.91.40.83:8080, 220.194.118.217:14000, 111.206.99.120:80, 49.7.253.120:80, 36.155.213.147:443, 101.91.37.242:14000, msfwifi.3g.qq.com:8080, 129.226.103.59:80.[0m
+[92m2022-03-24 18:50:19 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2022-03-24 18:50:53 I/: Successfully fetched ecdh public key from server.[0m
+[0m2022-03-24 18:50:53 V/: Send: wtlogin.exchange_emp[0m
+[0m2022-03-24 18:50:54 V/: Recv: wtlogin.exchange_emp[0m
+[0m2022-03-24 18:50:54 V/: Send: StatSvc.register(online)[0m
+[92m2022-03-24 18:50:54 I/: Server time updated, serverTime: 1648119054, diff: 0ms=0.0s[0m
+[0m2022-03-24 18:50:54 V/: Recv: StatSvc.register[0m
+[92m2022-03-24 18:50:54 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-03-24 18:50:54 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-03-24 18:50:59 I/: Server list: 157.148.36.89:80, 157.148.54.73:14000, 49.7.253.120:80, msfwifi.3g.qq.com:8080, 180.109.52.200:14000, 120.232.130.47:443, 183.47.98.11:8080, 203.205.232.53:80.[0m
+[0m2022-03-24 18:50:59 V/: Saving bdh session to cache[0m
+[0m2022-03-24 18:50:59 V/: Saving bdh session to cache[0m
+[0m2022-03-24 18:51:00 V/: Saving server list to cache[0m
+[0m2022-03-24 18:51:01 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-03-24 18:51:01 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-03-24 18:51:01 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-03-24 18:51:01 V/: Recv: ConfigPushSvc.PushReq[0m
+[91m2022-03-24 18:55:28 W/: HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(NettyNetworkHandler.kt:349)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:251)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:395)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$StateOK$heartbeatJobs$1.invoke(NettyNetworkHandler.kt:348)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:108)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	... 13 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:502)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m

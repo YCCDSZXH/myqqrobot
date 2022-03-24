@@ -1,0 +1,56 @@
+[92m2022-03-21 22:15:26 I/main: Starting mirai-console...[0m[m
+[92m2022-03-21 22:15:26 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-03-21 22:15:26 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-03-21 22:15:26 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-03-21 22:15:26 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-03-21 22:15:26 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-03-21 22:15:26 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-03-21 22:15:27 I/LuckPerms: Loading configuration...[0m[m
+[92m2022-03-21 22:15:28 I/LuckPerms: Loading storage provider... [H2][0m[m
+[92m2022-03-21 22:15:28 I/LuckPerms: Loading internal permission managers...[0m[m
+[92m2022-03-21 22:15:28 I/LuckPerms: Performing initial data load...[0m[m
+[92m2022-03-21 22:15:29 I/LuckPerms: Registering internal users....[0m[m
+[92m2022-03-21 22:15:29 I/LuckPerms: Successfully enabled. (took 1408ms)[0m[m
+[92m2022-03-21 22:15:29 I/plugin: Successfully loaded plugin LuckPerms v2.10.0-dev-6+null[0m[m
+[92m2022-03-21 22:15:29 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-03-21 22:15:29 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-03-21 22:15:29 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-03-21 22:15:29 I/plugin: Successfully loaded plugin mirai-administrator v1.0.4[0m[m
+[92m2022-03-21 22:15:29 I/main: Loaded PermissionService from plugin LuckPerms[0m[m
+[92m2022-03-21 22:15:29 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-03-21 22:15:29 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-03-21 22:15:29 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-21 22:15:30 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-03-21 22:15:30 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-03-21 22:15:30 I/Mirai HTTP API: Http api server is running with verifyKey: Aa11221133[0m[m
+[92m2022-03-21 22:15:30 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-03-21 22:15:30 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-21 22:15:30 I/mirai-administrator: 机器人所有者 2598810411[0m[m
+[92m2022-03-21 22:15:30 I/mirai-administrator: 发送上线通知请使用 /perm add g群号 xyz.cssxsh.mirai.plugin.mirai-administrator:online.include 赋予权限[0m[m
+[92m2022-03-21 22:15:30 I/mirai-administrator: ComparableService Registered [7]:
+ContentCensor: default-censor
+FriendApprover: default-approver
+GroupApprover: default-approver
+MemberApprover: default-approver
+MessageSourceHandler: default-recorder
+TimerService: status, online, curfew-timer, cleaner
+[0m[m
+[92m2022-03-21 22:15:30 I/main: 5 plugin(s) enabled.[0m[m
+[92m2022-03-21 22:15:30 I/main: Auto-login 3424719593[0m[m
+[91m2022-03-21 22:15:30 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-03-21 22:15:31 I/Bot.3424719593: Loaded account secrets from local cache.[0m[m
+[92m2022-03-21 22:15:31 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-21 22:15:32 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-21 22:15:32 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-21 22:15:32 I/Bot.3424719593: Bot login successful.[0m[m
+[92m2022-03-21 22:15:32 I/main: mirai-console started successfully.[0m[m
+[0m2022-03-21 22:15:35 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 112.38MB | 496.0MB\nNon-Heap Memory: 103.91MB  | 7.31MB | 99.29MB  |   -1   [0m[m
+[0m2022-03-21 22:17:09 V/Bot.3424719593: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-03-21 22:17:09 V/Bot.3424719593: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-03-21 22:17:49 V/Bot.3424719593: Friend(2598810411) <- 已超时取消[0m[m
+[0m2022-03-21 22:38:53 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> http://121.4.63.92:3000/[0m[m
+[0m2022-03-21 22:39:03 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 我的双创项目[0m[m
+[0m2022-03-21 22:39:07 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 来瞅瞅[0m[m
+[0m2022-03-21 23:03:37 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 喵三OAO(1163772509) -> 看着不错耶[0m[m
+[0m2022-03-21 23:04:19 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 喵三OAO(1163772509) -> 但是链接网站都还没有附上吧[0m[m
+[0m2022-03-21 23:40:34 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 那确实[0m[m

@@ -1,0 +1,6 @@
+# 发送上线消息的类型 XML, PLAIN, CUSTOM
+type: XML
+# CUSTOM 上线消息的内容
+custom: ''
+# 逐个发送消息延时，单位秒
+duration: 10

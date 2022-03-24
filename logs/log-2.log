@@ -1,0 +1,51 @@
+[92m2022-03-20 11:12:23 I/main: Starting mirai-console...[0m[m
+[92m2022-03-20 11:12:23 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-03-20 11:12:23 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-03-20 11:12:23 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-03-20 11:12:24 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-03-20 11:12:24 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-03-20 11:12:24 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-03-20 11:12:24 I/LuckPerms: Loading configuration...[0m[m
+[92m2022-03-20 11:12:25 I/LuckPerms: Loading storage provider... [H2][0m[m
+[92m2022-03-20 11:12:25 I/LuckPerms: Loading internal permission managers...[0m[m
+[92m2022-03-20 11:12:25 I/LuckPerms: Performing initial data load...[0m[m
+[92m2022-03-20 11:12:25 I/LuckPerms: Registering internal users....[0m[m
+[92m2022-03-20 11:12:25 I/LuckPerms: Successfully enabled. (took 931ms)[0m[m
+[92m2022-03-20 11:12:25 I/plugin: Successfully loaded plugin LuckPerms v2.10.0-dev-6+null[0m[m
+[92m2022-03-20 11:12:25 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-03-20 11:12:25 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-03-20 11:12:25 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-03-20 11:12:25 I/main: Loaded PermissionService from plugin LuckPerms[0m[m
+[92m2022-03-20 11:12:26 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-03-20 11:12:26 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[91m2022-03-20 11:12:26 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key[0m[m
+[92m2022-03-20 11:12:26 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:12:26 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-03-20 11:12:26 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYoXWFsOZX[0m[m
+[92m2022-03-20 11:12:26 I/Mirai HTTP API: adaptors: [http][0m[m
+[92m2022-03-20 11:12:26 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-03-20 11:12:26 I/main: 4 plugin(s) enabled.[0m[m
+[92m2022-03-20 11:12:26 I/main: mirai-console started successfully.[0m[m
+[91m2022-03-20 11:14:42 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk[0m[m
+[92m2022-03-20 11:14:43 I/Bot.3424719593: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3424719593&sid=6436026658120440867&cap_cd=FvDdRf0mXzjyxe1Lig5iSdxz4srD0eorolGKSbqn3q8BogDJtzsGuA**&clientype=1&apptype=2[0m[m
+[92m2022-03-20 11:15:13 I/Bot.3424719593: [SliderCaptcha] 正在提交中...[0m[m
+[92m2022-03-20 11:15:13 I/Bot.3424719593: [SliderCaptcha] Submitting...[0m[m
+[92m2022-03-20 11:15:13 I/Bot.3424719593: [UnsafeLogin] 当前登录环境不安全，服务器要求账户认证。请在 QQ 浏览器打开 https://ti.qq.com/safe/verify?_wv=2&_wwv=128&envfrom=device-lock&uin=3424719593&sig=G5%2Fmr5BlXWVsjHFjZfFt0xbfiF7ywM%2BEBn4C9U3BiNEX3WYIcSOROUO1HxRH68RZGz0N%2Baevq0QzN3nk4ec9oI%2BPCaUjEIqGyHK5sIwdooxWbpq4yn2%2BHoMbEjDqnHbe 并完成验证后输入任意字符。[0m[m
+[92m2022-03-20 11:15:13 I/Bot.3424719593: [UnsafeLogin] Account verification required by the server. Please open https://ti.qq.com/safe/verify?_wv=2&_wwv=128&envfrom=device-lock&uin=3424719593&sig=G5%2Fmr5BlXWVsjHFjZfFt0xbfiF7ywM%2BEBn4C9U3BiNEX3WYIcSOROUO1HxRH68RZGz0N%2Baevq0QzN3nk4ec9oI%2BPCaUjEIqGyHK5sIwdooxWbpq4yn2%2BHoMbEjDqnHbe in QQ browser and complete challenge, then type anything here to submit.[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: [UnsafeLogin] 正在提交中...[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: [UnsafeLogin] Submitting...[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: Login successful[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-20 11:16:04 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-20 11:16:04 I/Bot.3424719593: Bot login successful.[0m[m
+[91m2022-03-20 11:17:01 W/console: 未知指令: /ls, 输入 ? 获取帮助[0m[m
+[0m2022-03-20 11:17:07 V/Bot.3424719593: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-03-20 11:17:12 V/Bot.3424719593: Event: BotOfflineEvent.Active(bot=Bot(3424719593), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@603ef751, reconnect=false)[0m[m
+[92m2022-03-20 11:17:12 I/Bot.3424719593: Bot cancelled: Job was cancelled[0m[m

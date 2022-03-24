@@ -1,0 +1,10 @@
+# 机器人所有者
+owner: 2598810411
+# 自动发送机器人状态到所有者的间隔，单位为分钟，为零时不开启此项功能
+send_status_interval: 720
+# 消息审查，正则表达式
+censor_regex: ''
+# 消息审查，类型
+censor_types: []
+# 消息审查，禁言时间 单位秒
+censor_mute: 0

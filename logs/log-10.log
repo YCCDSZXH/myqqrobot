@@ -1,0 +1,18 @@
+[0m2022-03-22 10:15:35 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |  used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 81.42MB | 496.0MB\nNon-Heap Memory: 118.03MB  | 7.31MB | 113.0MB |   -1   [0m[m
+[0m2022-03-22 10:51:08 V/Bot.3424719593: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-03-22 10:51:08 V/Bot.3424719593: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-03-22 10:51:48 V/Bot.3424719593: Friend(2598810411) <- 已超时取消[0m[m
+[0m2022-03-22 15:39:26 V/Bot.3424719593: [426的家人们(865378263)] 庞海鑫(1042935872) -> #include <iostream>\n#include<semaphore>\nusing namespace std;\nbinary_semaphore bsem;\nint main()\n{\n}[0m[m
+[0m2022-03-22 17:41:46 V/Bot.3424719593: Event: BotOfflineEvent.Dropped(bot=Bot(3424719593), cause=NettyChannelException(message=null, cause=null), reconnect=true)[0m[m
+[91m2022-03-22 17:41:46 W/Bot.3424719593: Connection lost, reconnecting... (NettyChannelException(message=null, cause=null))[0m[m
+[92m2022-03-22 17:41:46 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-22 17:41:46 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-22 17:41:46 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-22 17:41:46 I/Bot.3424719593: Reconnected successfully in 0.178s.[0m[m
+[0m2022-03-22 17:41:46 V/Bot.3424719593: Event: BotReloginEvent(bot=Bot(3424719593), cause=null)[0m[m
+[0m2022-03-22 19:37:13 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 我是个啥(2017152647) -> 有人吗[0m[m
+[0m2022-03-22 19:48:02 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 我是个啥(2017152647) -> [mirai:image:{AB4236B6-809A-D667-70DE-4C29FAFBA23B}.gif][0m[m
+[0m2022-03-22 20:07:47 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 我是个啥(2017152647) -> [mirai:image:{0B01AFF0-25AB-72D5-A51E-E0D752EF8378}.jpg][0m[m
+[0m2022-03-22 21:34:14 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 一次充电数周续航(2598810411) -> 刚下课[0m[m
+[0m2022-03-22 22:15:35 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 128.86MB | 496.0MB\nNon-Heap Memory: 120.34MB  | 7.31MB | 115.23MB |   -1   [0m[m
+[0m2022-03-22 22:15:36 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 129.86MB | 496.0MB\nNon-Heap Memory: 120.34MB  | 7.31MB | 115.23MB |   -1   [0m[m

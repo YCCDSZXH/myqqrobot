@@ -1,0 +1,137 @@
+[0m2022-03-24 10:15:36 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 93.99MB  | 496.0MB\nNon-Heap Memory: 123.16MB  | 7.31MB | 117.94MB |   -1   [0m[m
+[0m2022-03-24 10:15:36 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 94.99MB  | 496.0MB\nNon-Heap Memory: 123.16MB  | 7.31MB | 117.96MB |   -1   [0m[m
+[0m2022-03-24 10:15:37 V/Bot.3424719593: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |   used   |   max  \n    Heap Memory:  152.0MB  | 32.0MB | 94.99MB  | 496.0MB\nNon-Heap Memory: 123.16MB  | 7.31MB | 117.96MB |   -1   [0m[m
+[0m2022-03-24 12:31:25 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 我是个啥(2017152647) -> [mirai:image:{D8C44D2B-A820-7FC9-C59F-5A25B8579164}.jpg][0m[m
+[0m2022-03-24 12:31:46 V/Bot.3424719593: [地牢四贱客【迫害向】(519611991)] 我是个啥(2017152647) -> [mirai:image:{5BD6A4E5-B038-DE7F-497D-2091274F9655}.gif][0m[m
+[0m2022-03-24 18:22:00 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> [mirai:at:1042935872] [mirai:at:1360792570] [0m[m
+[0m2022-03-24 18:22:10 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> 走走走[0m[m
+[0m2022-03-24 18:22:13 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> [mirai:image:{52A6CC89-098A-3592-A679-895C5A324947}.jpg][0m[m
+[91m2022-03-24 18:47:22 W/LuckPerms: Processing login for 2598810411 took 2579ms.[0m[m
+[91m2022-03-24 18:47:22 W/LuckPerms: Processing login for 2598810411 took 2451ms.[0m[m
+[0m2022-03-24 18:47:24 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> 这边扫不到[0m[m
+[0m2022-03-24 18:47:24 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> 帮我发过来一个[0m[m
+[0m2022-03-24 18:49:59 V/Bot.3424719593: [426的家人们(865378263)] 周旭航(2598810411) -> 不行…[0m[m
+[0m2022-03-24 18:50:01 V/Bot.3424719593: Event: BotOfflineEvent.Dropped(bot=Bot(3424719593), cause=HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-03-24 18:50:02 W/Bot.3424719593: Connection lost, reconnecting... (HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[91m2022-03-24 18:50:15 W/LuckPerms: Processing login for 1360792570 took 13934ms.[0m[m
+[91m2022-03-24 18:50:16 W/LuckPerms: Processing login for 1042935872 took 15209ms.[0m[m
+[91m2022-03-24 18:50:18 W/LuckPerms: Processing login for 1360792570 took 126435ms.[0m[m
+[0m2022-03-24 18:50:18 V/Bot.3424719593: [426的家人们(865378263)] 陈锟(1360792570) -> [元宝][0m[m
+[0m2022-03-24 18:50:19 V/Bot.3424719593: [426的家人们(865378263)] 庞海鑫(1042935872) -> 刚离开原位置，这个行不行[0m[m
+[0m2022-03-24 18:50:19 V/Bot.3424719593: [426的家人们(865378263)] 陈锟(1360792570) -> 看看能不能\n[0m[m
+[0m2022-03-24 18:50:21 V/Bot.3424719593: [426的家人们(865378263)] 陈锟(1360792570) -> 48，我的极限[0m[m
+[91m2022-03-24 18:50:29 W/mirai-administrator: MiraiAdministrator with GroupMessageEvent(group=865378263, senderName=陈锟, sender=1360792570, permission=ADMINISTRATOR, message=[mirai:source:[2473],[41024086]][mirai:image:{FC41CF09-CF90-FE1B-4ACE-6A7EFA377E75}.jpg])
+java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Instance.call(CallerImpl.kt:113)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.full.KCallables.callSuspend(KCallables.kt:56)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.registerEventHandler$callFunction(JvmMethodListenersInternal.kt:80)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt.access$registerEventHandler$callFunction(JvmMethodListenersInternal.kt:1)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$8.invokeSuspend(JvmMethodListenersInternal.kt:110)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$8.invoke(JvmMethodListenersInternal.kt)
+	at net.mamoe.mirai.internal.event.JvmMethodListenersInternalKt$registerEventHandler$8.invoke(JvmMethodListenersInternal.kt)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$1.invokeSuspend(EventChannel.kt:455)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$1.invoke(EventChannel.kt)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$1.invoke(EventChannel.kt)
+	at net.mamoe.mirai.internal.event.Handler$onEvent$2.invokeSuspend(InternalEventListeners.kt:50)
+	at net.mamoe.mirai.internal.event.Handler$onEvent$2.invoke(InternalEventListeners.kt)
+	at net.mamoe.mirai.internal.event.Handler$onEvent$2.invoke(InternalEventListeners.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:50)
+	at net.mamoe.mirai.internal.event.InternalEventListenersKt.process(InternalEventListeners.kt:166)
+	at net.mamoe.mirai.internal.event.InternalEventListenersKt.callAndRemoveIfRequired(InternalEventListeners.kt:115)
+	at net.mamoe.mirai.event._EventBroadcast.broadcastImpl(Event.kt:174)
+	at net.mamoe.mirai.IMirai.broadcastEvent(IMirai.kt:318)
+	at net.mamoe.mirai.internal.MiraiImpl.broadcastEvent$suspendImpl(MiraiImpl.kt:308)
+	at net.mamoe.mirai.internal.MiraiImpl.broadcastEvent(MiraiImpl.kt)
+	at net.mamoe.mirai.event._EventBroadcast.broadcastPublic$suspendImpl(Event.kt:161)
+	at net.mamoe.mirai.event._EventBroadcast.broadcastPublic(Event.kt)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:146)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$2.invokeSuspend(EventDispatcher.kt:90)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$2.invoke(EventDispatcher.kt)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcast$2.invoke(EventDispatcher.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:165)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast$suspendImpl(EventDispatcher.kt:89)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcast(EventDispatcher.kt)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcastAsync$job$1.invokeSuspend(EventDispatcher.kt:105)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcastAsync$job$1.invoke(EventDispatcher.kt)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl$broadcastAsync$job$1.invoke(EventDispatcher.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at net.mamoe.mirai.internal.network.components.EventDispatcherImpl.broadcastAsync-kKe4JaQ(EventDispatcher.kt:102)
+	at net.mamoe.mirai.internal.network.components.EventDispatcher.broadcastAsync-kKe4JaQ$default(EventDispatcher.kt:35)
+	at net.mamoe.mirai.internal.network.components.EventBroadcasterPacketHandler.impl(PacketHandler.kt:87)
+	at net.mamoe.mirai.internal.network.components.EventBroadcasterPacketHandler.handlePacket(PacketHandler.kt:73)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:84)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:82)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$PacketDecodePipeline$send$1.invokeSuspend(NettyNetworkHandler.kt:178)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.util.concurrent.CompletionException: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_F ON PUBLIC.LUCKPERMS_PLAYERS(UUID) VALUES 15"; SQL statement:
+INSERT INTO `luckperms_players` (uuid, username, primary_group) VALUES(?, ?, ?) [23505-199]
+	at luckperms-2.10.0-dev-6+null.jar//me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:93)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_F ON PUBLIC.LUCKPERMS_PLAYERS(UUID) VALUES 15"; SQL statement:
+INSERT INTO `luckperms_players` (uuid, username, primary_group) VALUES(?, ?, ?) [23505-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:457)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:220)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:180)
+	at org.h2.command.dml.Insert.update(Insert.java:132)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:267)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:250)
+	at luckperms-2.10.0-dev-6+null.jar//me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:643)
+	at luckperms-2.10.0-dev-6+null.jar//me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$21(Storage.java:269)
+	at luckperms-2.10.0-dev-6+null.jar//me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:88)
+	... 7 more
+[0m[m
+[0m2022-03-24 18:50:31 V/Bot.3424719593: [426的家人们(865378263)] 陈锟(1360792570) -> [mirai:image:{FC41CF09-CF90-FE1B-4ACE-6A7EFA377E75}.jpg][0m[m
+[0m2022-03-24 18:50:33 V/Bot.3424719593: [426的家人们(865378263)] 陈锟(1360792570) -> [mirai:image:{4A418244-13F5-BBDC-76DE-8A46E9E27B75}.jpg][0m[m
+[0m2022-03-24 18:50:35 V/Bot.3424719593: [426的家人们(865378263)] 庞海鑫(1042935872) -> [mirai:image:{8611B206-2D2C-3B1F-388D-A942A1C1066D}.jpg][0m[m
+[92m2022-03-24 18:50:54 I/Bot.3424719593: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-03-24 18:50:54 I/Bot.3424719593: Login successful.[0m[m
+[0m2022-03-24 18:50:54 V/Bot.3424719593: Event: BotOnlineEvent(bot=Bot(3424719593))[0m[m
+[92m2022-03-24 18:50:54 I/Bot.3424719593: Reconnected successfully in 52.062s.[0m[m
+[0m2022-03-24 18:50:54 V/Bot.3424719593: Event: BotReloginEvent(bot=Bot(3424719593), cause=null)[0m[m
+[0m2022-03-24 18:55:24 V/Bot.3424719593: Event: BotOfflineEvent.Dropped(bot=Bot(3424719593), cause=HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-03-24 18:55:25 W/Bot.3424719593: Connection lost, reconnecting... (HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m

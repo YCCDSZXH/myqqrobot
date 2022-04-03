@@ -80,3 +80,50 @@ Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting fo
 	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 [0m
+[0m2022-03-24 22:20:01 V/Net 3424719593: Loading server list from cache.[0m
+[92m2022-03-24 22:20:01 I/Net 3424719593: Server list: 157.148.36.89:80, 157.148.54.73:14000, 49.7.253.120:80, msfwifi.3g.qq.com:8080, 180.109.52.200:14000, 120.232.130.47:443, 183.47.98.11:8080, 203.205.232.53:80.[0m
+[92m2022-03-24 22:20:01 I/Net 3424719593: ECDH key is valid.[0m
+[0m2022-03-24 22:20:01 V/Net 3424719593: Send: wtlogin.exchange_emp[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: StatSvc.register(online)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: wtlogin.exchange_emp[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Server time updated, serverTime: 1648131602, diff: 0ms=0.0s[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: StatSvc.register[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Loading BdhSession from cache file[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Syncing friend message history...[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Start loading stranger list...[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Start loading friend list...[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: OidbSvc.0x496[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Start loading group list...[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: No OtherClient online.[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Syncing friend message history: Success.[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Successfully loaded stranger list: 0 in total[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: OidbSvc.0x5d2_0[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Loading friend list: 10/10[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Successfully loaded friend list: 10 in total[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: friendlist.getFriendGroupList[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: friendlist.GetTroopListReqV2[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2022-03-24 22:20:02 V/Net 3424719593: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Successfully loaded group list: 3 in total.[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2022-03-24 22:20:02 I/Net 3424719593: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2022-03-24 22:20:05 I/Net 3424719593: Server list: 157.148.57.39:14000, 114.222.113.249:14000, 129.226.103.136:80, 157.148.54.141:80, msfwifi.3g.qq.com:8080, 49.7.253.219:80, 120.232.31.239:443, 183.47.106.14:8080.[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Saving bdh session to cache[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Saving server list to cache[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Saving bdh session to cache[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Recv: ConfigPushSvc.PushReq[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2022-03-24 22:20:05 V/Net 3424719593: Recv: MessageSvc.PbSendMsg[0m

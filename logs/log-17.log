@@ -1,0 +1,891 @@
+[92m2022-05-07 13:59:25 I/main: Starting mirai-console...[0m[m
+[92m2022-05-07 13:59:25 I/main: Backend: version 2.11.0-M1, built on 2022-03-08 20:34:54.[0m[m
+[92m2022-05-07 13:59:25 I/main: Frontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies[0m[m
+[92m2022-05-07 13:59:25 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-05-07 13:59:25 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-05-07 13:59:25 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-05-07 13:59:25 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-05-07 13:59:26 I/LuckPerms: Loading configuration...[0m[m
+[92m2022-05-07 13:59:26 I/LuckPerms: Loading storage provider... [H2][0m[m
+[92m2022-05-07 13:59:27 I/LuckPerms: Loading internal permission managers...[0m[m
+[92m2022-05-07 13:59:27 I/LuckPerms: Performing initial data load...[0m[m
+[92m2022-05-07 13:59:27 I/LuckPerms: Registering internal users....[0m[m
+[92m2022-05-07 13:59:27 I/LuckPerms: Successfully enabled. (took 1315ms)[0m[m
+[92m2022-05-07 13:59:27 I/plugin: Successfully loaded plugin LuckPerms v2.10.0-dev-6+null[0m[m
+[92m2022-05-07 13:59:27 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-05-07 13:59:27 I/plugin: Successfully loaded plugin Chat Command v0.5.0[0m[m
+[92m2022-05-07 13:59:27 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.4.0[0m[m
+[92m2022-05-07 13:59:27 I/plugin: Successfully loaded plugin mirai-administrator v1.0.4[0m[m
+[92m2022-05-07 13:59:27 I/main: Loaded PermissionService from plugin LuckPerms[0m[m
+[92m2022-05-07 13:59:27 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-05-07 13:59:27 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-05-07 13:59:28 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-07 13:59:28 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-05-07 13:59:28 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-05-07 13:59:28 I/Mirai HTTP API: Http api server is running with verifyKey: Aa11221133[0m[m
+[92m2022-05-07 13:59:28 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-05-07 13:59:28 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-05-07 13:59:28 I/mirai-administrator: 机器人所有者 2598810411[0m[m
+[92m2022-05-07 13:59:28 I/mirai-administrator: 发送上线通知请使用 /perm add g群号 xyz.cssxsh.mirai.plugin.mirai-administrator:online.include 赋予权限[0m[m
+[92m2022-05-07 13:59:28 I/mirai-administrator: ComparableService Registered [7]:
+ContentCensor: default-censor
+FriendApprover: default-approver
+GroupApprover: default-approver
+MemberApprover: default-approver
+MessageSourceHandler: default-recorder
+TimerService: status, online, curfew-timer, cleaner
+[0m[m
+[92m2022-05-07 13:59:28 I/main: 5 plugin(s) enabled.[0m[m
+[92m2022-05-07 13:59:28 I/main: Auto-login 202898447[0m[m
+[91m2022-05-07 13:59:29 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-05-07 13:59:29 I/Bot.202898447: Loaded account secrets from local cache.[0m[m
+[92m2022-05-07 13:59:30 I/Bot.202898447: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-05-07 13:59:30 I/Bot.202898447: Login successful.[0m[m
+[0m2022-05-07 13:59:30 V/Bot.202898447: Event: BotOnlineEvent(bot=Bot(202898447))[0m[m
+[92m2022-05-07 13:59:30 I/Bot.202898447: Bot login successful.[0m[m
+[92m2022-05-07 13:59:30 I/main: mirai-console started successfully.[0m[m
+[0m2022-05-07 13:59:33 V/Bot.202898447: Friend(2598810411) <- Running MiraiConsole v2.11.0-M1, built on 2022-03-08 20:34:54.\nFrontend Terminal: version 2.11.0-M1, provided by Mamoe Technologies\n\nPermission Service: LuckPerms v2.10.0-dev-6+null\n\nPlugins: LuckPerms v2.10.0-dev-6+null, MCL Addon v1.2.2, Chat Command v0.5.0, net.mamoe.mirai-api-http v2.4.0, mirai-administrator v1.0.4\n\nObject Pending Finalization Count: 0\n                 committed |  init  |  used   |   max  \n    Heap Memory:  156.0MB  | 32.0MB | 78.61MB | 496.0MB\nNon-Heap Memory:  96.81MB  | 7.31MB | 92.24MB |   -1   [0m[m
+[0m2022-05-07 14:00:44 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 14:01:50 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:02:16 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:02:22 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> welearn[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:02:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 14:03:31 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 14:04:02 V/Bot.202898447: Event: NewFriendRequestEvent(bot=Bot(202898447), eventId=1651903441000000, message=我是02, fromId=2208396841, fromGroupId=0, fromNick=02)[0m[m
+[0m2022-05-07 14:04:02 V/Bot.202898447: Friend(2598810411) <- @02#2208396841 with <1651903441000000>\n申请添加好友\nfrom null\n我是02\n已自动同意\n[0m[m
+[0m2022-05-07 14:04:02 V/Bot.202898447: Event: FriendAddEvent(friend=Friend(2208396841))[0m[m
+[0m2022-05-07 14:04:11 V/Bot.202898447: 02(2208396841) -> welearn[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:05:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:08:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:11:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 14:11:35 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:12:00 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:13:00 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:14:12 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:14:23 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 你好[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:14:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 14:14:45 V/Bot.202898447: 一次充电数周续航(2598810411) -> 你好[0m[m
+[0m2022-05-07 14:14:52 V/Bot.202898447: 02(2208396841) -> 你好[0m[m
+[0m2022-05-07 14:15:14 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 14:15:16 V/Bot.202898447: 一次充电数周续航(2598810411) -> 你好[0m[m
+[0m2022-05-07 14:15:24 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 你好[0m[m
+[0m2022-05-07 14:15:24 V/Bot.202898447: Group(1004634397) <- 不要说你好，来点涩图[0m[m
+[0m2022-05-07 14:15:47 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 你好[0m[m
+[0m2022-05-07 14:15:48 V/Bot.202898447: Group(1004634397) <- 不要说你好，来点涩图[0m[m
+[0m2022-05-07 14:15:57 V/Bot.202898447: [一次充电数周、1(1004634397)] 一次充电数周续航(2598810411) -> 你好[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:17:30 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:20:35 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:20:38 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:20:42 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:20:43 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 14:22:55 V/Bot.202898447: 一次充电数周续航(2598810411) -> /help[0m[m
+[0m2022-05-07 14:22:55 V/Bot.202898447: Friend(2598810411) <- ◆ /autoLogin add <account> <password> [passwordKind]    # 添加自动登录, passwordKind 可选 PLAIN 或 MD5\n  /autoLogin clear    # 清除所有配置\n  /autoLogin list    # 查看自动登录账号列表\n  /autoLogin remove <account>    # 删除一个账号\n  /autoLogin removeConfig <account> <configKey>    # 删除一个账号的一个配置项\n  /autoLogin setConfig <account> <configKey> <value>    # 设置一个账号的一个配置项\n◆ /help     # 查看指令帮助\n◆ /login <qq> [password] [protocol]    # 登录一个账号\n◆ /logout <qq>    # 登出一个账号\n◆ /status     # 获取 Mirai Console 运行状态\n◆ /stop     # 关闭 Mirai Console\n◆ /mclc <MCL命令行参数>\n◆ /mcl info <package>    # 获取包信息\n  /mcl install <package> [channel] [type] [version] [lock or unlock]    # 安装包\n  /mcl list    # 列出已安装的包\n  /mcl remove <package> [delete]    # 移除包\n  /mcl run <script>    # 执行脚本load阶段\n  /mcl update    # 执行updater脚本\n◆ /contact delete <contact>    # 删除联系人\n  /contact handle <id> [accept] [black] [message]    # 处理请求\n  /contact request    # 申请列表\n◆ /friend delete <friend>    # 删除好友\n  /friend list    # 好友列表\n◆ /group kick <member> [reason] [black]    # 踢出群员\n  /group list    # 群列表\n  /group member <group>    # 群成员\n  /group mute <member> <second>    # 禁言\n  /group nick <member> <nick>    # 群昵称\n  /group quit <group>    # 退出群聊\n  /group title <member> <title>    # 群头衔\n◆ /recall [contact]    # 撤回消息\n◆ /registered     # 查看已注册指令及服务\n◆ /send friends [bot]    # 发送给所有好友\n  /send groups [bot] [at]    # 发送给所有群\n  /send nudge <user>    # 戳一戳指定联系人\n  /send to <contact> [at]    # 发送给指定联系人\n◆ /timer check <minute>    # 检查周期\n  /timer cleaner <day> [group]    # 清理不发言\n  /timer mute <start> <end> [group]    # 宵禁\n◆ /permission\n◆ /lp\n◆ \n◆ /lpe shutdown    # fast shutdown\n  /lpe startup    # restart[0m[m
+[92m2022-05-07 14:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:47:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:47:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:47:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:47:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:47:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:47:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:50:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:50:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:50:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:50:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:50:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:50:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:53:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:53:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:53:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:53:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:53:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:53:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:56:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:56:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:56:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:56:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:56:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:56:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 14:59:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:59:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:59:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 14:59:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 14:59:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 14:59:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:02:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:02:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:02:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:02:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:02:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:02:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:05:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:05:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:05:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:05:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:05:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:05:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:08:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:08:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:08:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:08:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:08:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:08:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:11:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:11:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:11:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:11:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:11:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:11:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:14:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:14:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:14:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:14:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:14:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:14:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:17:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:17:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:17:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:17:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:17:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:17:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:20:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:20:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:20:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:20:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:47:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:47:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:47:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:47:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:47:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:47:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:50:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:50:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:50:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:50:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:50:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:50:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:53:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:53:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:53:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:53:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:53:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:53:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:56:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:56:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:56:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:56:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:56:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:56:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 15:59:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:59:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:59:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 15:59:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 15:59:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 15:59:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:02:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:02:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:02:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:02:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:02:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:02:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:05:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:05:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:05:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:05:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:05:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:05:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:08:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:08:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:08:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:08:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:08:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:08:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:11:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:11:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:11:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:11:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:11:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:11:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:14:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:14:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:14:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:14:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:14:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:14:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:17:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:17:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:17:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:17:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:17:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:17:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:20:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:20:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:20:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:20:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:47:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:47:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:47:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:47:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:47:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:47:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:50:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:50:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:50:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:50:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:50:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:50:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:53:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:53:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:53:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:53:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:53:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:53:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:56:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:56:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:56:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:56:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:56:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:56:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 16:59:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:59:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:59:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 16:59:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 16:59:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 16:59:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:02:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:02:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:02:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:02:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:02:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:02:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:05:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:05:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:05:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:05:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:05:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:05:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:08:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:08:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:08:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:08:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:08:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:08:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:11:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:11:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:11:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:11:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:11:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:11:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:14:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:14:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:14:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:14:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:14:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:14:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:17:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:17:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:17:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:17:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:17:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:17:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:20:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:20:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:20:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:20:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:47:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:47:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:47:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:47:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:47:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:47:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:50:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:50:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:50:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:50:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:50:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:50:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:53:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:53:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:53:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[0m2022-05-07 17:53:36 V/Bot.202898447: 一次充电数周续航(2598810411) -> /help[0m[m
+[92m2022-05-07 17:53:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[0m2022-05-07 17:53:36 V/Bot.202898447: Friend(2598810411) <- ◆ /autoLogin add <account> <password> [passwordKind]    # 添加自动登录, passwordKind 可选 PLAIN 或 MD5\n  /autoLogin clear    # 清除所有配置\n  /autoLogin list    # 查看自动登录账号列表\n  /autoLogin remove <account>    # 删除一个账号\n  /autoLogin removeConfig <account> <configKey>    # 删除一个账号的一个配置项\n  /autoLogin setConfig <account> <configKey> <value>    # 设置一个账号的一个配置项\n◆ /help     # 查看指令帮助\n◆ /login <qq> [password] [protocol]    # 登录一个账号\n◆ /logout <qq>    # 登出一个账号\n◆ /status     # 获取 Mirai Console 运行状态\n◆ /stop     # 关闭 Mirai Console\n◆ /mclc <MCL命令行参数>\n◆ /mcl info <package>    # 获取包信息\n  /mcl install <package> [channel] [type] [version] [lock or unlock]    # 安装包\n  /mcl list    # 列出已安装的包\n  /mcl remove <package> [delete]    # 移除包\n  /mcl run <script>    # 执行脚本load阶段\n  /mcl update    # 执行updater脚本\n◆ /contact delete <contact>    # 删除联系人\n  /contact handle <id> [accept] [black] [message]    # 处理请求\n  /contact request    # 申请列表\n◆ /friend delete <friend>    # 删除好友\n  /friend list    # 好友列表\n◆ /group kick <member> [reason] [black]    # 踢出群员\n  /group list    # 群列表\n  /group member <group>    # 群成员\n  /group mute <member> <second>    # 禁言\n  /group nick <member> <nick>    # 群昵称\n  /group quit <group>    # 退出群聊\n  /group title <member> <title>    # 群头衔\n◆ /recall [contact]    # 撤回消息\n◆ /registered     # 查看已注册指令及服务\n◆ /send friends [bot]    # 发送给所有好友\n  /send groups [bot] [at]    # 发送给所有群\n  /send nudge <user>    # 戳一戳指定联系人\n  /send to <contact> [at]    # 发送给指定联系人\n◆ /timer check <minute>    # 检查周期\n  /timer cleaner <day> [group]    # 清理不发言\n  /timer mute <start> <end> [group]    # 宵禁\n◆ /permission\n◆ /lp\n◆ \n◆ /lpe shutdown    # fast shutdown\n  /lpe startup    # restart[0m[m
+[92m2022-05-07 17:53:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:53:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:56:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:56:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:56:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:56:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:56:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:56:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 17:59:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:59:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:59:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 17:59:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 17:59:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 17:59:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:02:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:02:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:02:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:02:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:02:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:02:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:05:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:05:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:05:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:05:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:05:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:05:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:08:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:08:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:08:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:08:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:08:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:08:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:11:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:11:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:11:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:11:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:11:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:11:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:14:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:14:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:14:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:14:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:14:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:14:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:17:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:17:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:17:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:17:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:17:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:17:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:20:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:20:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:20:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:20:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:47:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:47:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:47:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:47:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:47:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:47:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:50:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:50:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:50:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:50:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:50:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:50:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:53:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:53:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:53:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:53:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:53:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:53:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:56:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:56:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:56:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:56:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:56:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:56:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 18:59:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:59:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:59:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 18:59:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 18:59:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 18:59:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:02:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:02:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:02:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:02:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:02:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:02:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:05:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:05:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:05:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:05:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:05:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:05:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:07:07 V/Bot.202898447: 02(2208396841) -> 1[0m[m
+[0m2022-05-07 19:07:57 V/Bot.202898447: 02(2208396841) -> welearn[0m[m
+[92m2022-05-07 19:08:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:08:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:08:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:08:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:08:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:08:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:11:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:11:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:11:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:11:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:11:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:11:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:14:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:14:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:14:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:14:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:14:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:14:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:17:00 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[92m2022-05-07 19:17:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:17:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:17:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:17:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:17:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:17:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:20:18 V/Bot.202898447: Event: BotOfflineEvent.MsfOffline(bot=Bot(202898447), cause=MsfOfflineToken(uin=202898447, seq=3691017599, const=0), reconnect=true)[0m[m
+[91m2022-05-07 19:20:18 W/Bot.202898447: Connection lost, reconnecting... (MsfOfflineToken(uin=202898447, seq=3691017599, const=0))[0m[m
+[92m2022-05-07 19:20:18 I/Bot.202898447: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-05-07 19:20:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:20:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:20:31 I/Bot.202898447: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-05-07 19:20:32 I/Bot.202898447: Login successful.[0m[m
+[0m2022-05-07 19:20:32 V/Bot.202898447: Event: BotOnlineEvent(bot=Bot(202898447))[0m[m
+[92m2022-05-07 19:20:32 I/Bot.202898447: Reconnected successfully in 13.497s.[0m[m
+[0m2022-05-07 19:20:32 V/Bot.202898447: Event: BotReloginEvent(bot=Bot(202898447), cause=null)[0m[m
+[92m2022-05-07 19:20:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:20:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:20:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:20:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:23:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:23:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:26:10 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:26:10 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:26:20 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:26:20 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:26:25 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:26:25 V/Bot.202898447: Friend(2598810411) <- 正在登录...[0m[m
+[92m2022-05-07 19:26:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:26:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:26:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:26:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:26:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:26:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:29:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:29:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:32:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:32:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:34:10 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:34:10 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:34:15 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:34:15 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:34:21 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:34:22 V/Bot.202898447: Friend(2598810411) <- 正在登录...[0m[m
+[0m2022-05-07 19:34:23 V/Bot.202898447: Friend(2598810411) <- 登录成功,开始查询课程\n查询课程成功!!!您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n请输入需要完成的课程序号\n（上方[]内的数字）: [0m[m
+[0m2022-05-07 19:34:27 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:34:27 V/Bot.202898447: Friend(2598810411) <- [NO. 0]  按顺序完成全部单元课程\n[NO. 1]  [已开放]  Unit 01  Unit 1 College Life\n[NO. 2]  [已开放]  Unit 02  Unit 2 Love and Friendship\n[NO. 3]  [已开放]  Unit 03  Unit 3 Power of Music\n[NO. 4]  [已开放]  Unit 04  Unit 4 Driving Forces of Sports\n[NO. 5]  [已开放]  Unit 05  Unit 5 To Be Creative\n[NO. 6]  [已开放]  Unit 06  Unit 6 Pleasure of Reading\n[NO. 7]  [已开放]  Unit 07  Unit 7 Effective Communication\n[NO. 8]  [已开放]  Unit 08  Unit 8 Growing Pains\n请选择需要完成的单元序号（上方[]内的数字，输入0为按顺序刷全部单元）:  \n请确认你现在是否要刷完, 是否要选0\n这边建议选先少刷点\n先别全部刷完!!\n容易露馅[0m[m
+[0m2022-05-07 19:35:08 V/Bot.202898447: Friend(2598810411) <- 已超时取消[0m[m
+[92m2022-05-07 19:35:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:35:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:35:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:35:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:35:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:35:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:38:20 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:38:20 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:38:23 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:38:24 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:38:27 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:38:28 V/Bot.202898447: Friend(2598810411) <- 正在登录...[0m[m
+[92m2022-05-07 19:38:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:38:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:38:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:38:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:38:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:38:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:39:03 V/Bot.202898447: 一次充电数周续航(2598810411) -> weleaen[0m[m
+[0m2022-05-07 19:39:06 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:39:06 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:39:09 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:39:10 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:39:13 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:39:13 V/Bot.202898447: Friend(2598810411) <- 正在登录...[0m[m
+[0m2022-05-07 19:39:32 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:39:32 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:39:36 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:39:36 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:39:39 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:39:39 V/Bot.202898447: Friend(2598810411) <- 正在登录...[0m[m
+[0m2022-05-07 19:39:40 V/Bot.202898447: Friend(2598810411) <- 登录成功,开始查询课程\n查询课程成功!!!您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n请输入需要完成的课程序号\n（上方[]内的数字）: [0m[m
+[0m2022-05-07 19:40:21 V/Bot.202898447: Friend(2598810411) <- 已超时取消[0m[m
+[0m2022-05-07 19:40:57 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:40:57 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[0m2022-05-07 19:41:00 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:41:01 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[0m2022-05-07 19:41:04 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:41:05 V/Bot.202898447: Friend(2598810411) <- 查询课程成功!!!您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n请输入需要完成的课程序号\n（上方[]内的数字）: [0m[m
+[0m2022-05-07 19:41:25 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:41:26 V/Bot.202898447: Friend(2598810411) <- [NO. 0]  按顺序完成全部单元课程\n[NO. 1]  [已开放]  Unit 01  Unit 1 College Life\n[NO. 2]  [已开放]  Unit 02  Unit 2 Love and Friendship\n[NO. 3]  [已开放]  Unit 03  Unit 3 Power of Music\n[NO. 4]  [已开放]  Unit 04  Unit 4 Driving Forces of Sports\n[NO. 5]  [已开放]  Unit 05  Unit 5 To Be Creative\n[NO. 6]  [已开放]  Unit 06  Unit 6 Pleasure of Reading\n[NO. 7]  [已开放]  Unit 07  Unit 7 Effective Communication\n[NO. 8]  [已开放]  Unit 08  Unit 8 Growing Pains\n请选择需要完成的单元序号（上方[]内的数字，输入0为按顺序刷全部单元）:  \n请确认你现在是否要刷完, 是否要选0\n这边建议选先少刷点\n先别全部刷完!!\n容易露馅[0m[m
+[92m2022-05-07 19:41:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:41:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:41:33 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:41:33 V/Bot.202898447: Friend(2598810411) <- 模式1:每个练习指定正确率，请直接输入指定的正确率\n如:希望每个练习正确率均为100，则输入 100\n\n模式2:每个练习随机正确率，请输入正确率上下限并用英文逗号隔开\n如:希望每个练习正确率为70～100，则输入 70,100\n\n请严格按照以上格式输入每个练习的正确率: [0m[m
+[92m2022-05-07 19:41:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:41:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:41:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:41:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:42:05 V/Bot.202898447: 一次充电数周续航(2598810411) -> 100[0m[m
+[0m2022-05-07 19:42:06 V/Bot.202898447: Friend(2598810411) <- [!!跳过!!](1, 1, 0)[!!跳过!!](1, 2, 1)[!!跳过!!](1, 3, 2)[!!跳过!!](1, 4, 3)[!!跳过!!](1, 5, 4)[!!跳过!!](1, 6, 5)[!!跳过!!](1, 7, 6)[!!跳过!!](1, 8, 7)[!!跳过!!](1, 9, 8)[!!跳过!!](1, 10, 9)[!!跳过!!](1, 11, 10)[!!跳过!!](1, 12, 11)[!!跳过!!](1, 13, 12)[!!跳过!!](1, 14, 13)[!!跳过!!](1, 15, 14)[!!跳过!!](1, 16, 15)[!!跳过!!](1, 17, 16)[!!跳过!!](1, 18, 17)[!!跳过!!](1, 19, 18)[!!跳过!!](1, 20, 19)[!!跳过!!](1, 21, 20)[!!跳过!!](1, 22, 21)[0m[m
+[0m2022-05-07 19:42:06 V/Bot.202898447: Friend(2598810411) <- 运行完毕![0m[m
+[0m2022-05-07 19:42:06 V/Bot.202898447: Friend(2598810411) <- 您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n[0m[m
+[0m2022-05-07 19:42:19 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:44:28 V/Bot.202898447: 一次充电数周续航(2598810411) -> welearn[0m[m
+[0m2022-05-07 19:44:28 V/Bot.202898447: Friend(2598810411) <- 你好欢迎使用welearn刷课工具\n请输入账号[0m[m
+[92m2022-05-07 19:44:31 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:44:31 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group dkenn(724282871) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with curfew-timer[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[92m2022-05-07 19:44:32 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[92m2022-05-07 19:44:33 I/mirai-administrator: Group minsharking2(672588350) timer run success with curfew-timer[0m[m
+[0m2022-05-07 19:44:33 V/Bot.202898447: 一次充电数周续航(2598810411) -> 13278880016[0m[m
+[0m2022-05-07 19:44:33 V/Bot.202898447: Friend(2598810411) <- 请输入密码[0m[m
+[92m2022-05-07 19:44:36 I/mirai-administrator: Group minsharking2(672588350) timer run success with cleaner[0m[m
+[0m2022-05-07 19:44:37 V/Bot.202898447: 一次充电数周续航(2598810411) -> Aa112211[0m[m
+[0m2022-05-07 19:44:39 V/Bot.202898447: Friend(2598810411) <- 查询课程成功!!!您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n请输入需要完成的课程序号\n（上方[]内的数字）: [0m[m
+[92m2022-05-07 19:44:40 I/mirai-administrator: Group dkenn(724282871) timer run success with cleaner[0m[m
+[92m2022-05-07 19:44:42 I/mirai-administrator: Group 一次充电数周、1(1004634397) timer run success with cleaner[0m[m
+[0m2022-05-07 19:44:45 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:44:46 V/Bot.202898447: Friend(2598810411) <- [NO. 0]  按顺序完成全部单元课程\n[NO. 1]  [已开放]  Unit 01  Unit 1 College Life\n[NO. 2]  [已开放]  Unit 02  Unit 2 Love and Friendship\n[NO. 3]  [已开放]  Unit 03  Unit 3 Power of Music\n[NO. 4]  [已开放]  Unit 04  Unit 4 Driving Forces of Sports\n[NO. 5]  [已开放]  Unit 05  Unit 5 To Be Creative\n[NO. 6]  [已开放]  Unit 06  Unit 6 Pleasure of Reading\n[NO. 7]  [已开放]  Unit 07  Unit 7 Effective Communication\n[NO. 8]  [已开放]  Unit 08  Unit 8 Growing Pains\n请选择需要完成的单元序号（上方[]内的数字，输入0为按顺序刷全部单元）:  \n请确认你现在是否要刷完, 是否要选0\n这边建议选先少刷点\n先别全部刷完!!\n容易露馅[0m[m
+[0m2022-05-07 19:45:43 V/Bot.202898447: 一次充电数周续航(2598810411) -> 1[0m[m
+[0m2022-05-07 19:45:43 V/Bot.202898447: Friend(2598810411) <- 模式1:每个练习指定正确率，请直接输入指定的正确率\n如:希望每个练习正确率均为100，则输入 100\n\n模式2:每个练习随机正确率，请输入正确率上下限并用英文逗号隔开\n如:希望每个练习正确率为70～100，则输入 70,100\n\n请严格按照以上格式输入每个练习的正确率: [0m[m
+[0m2022-05-07 19:46:02 V/Bot.202898447: 一次充电数周续航(2598810411) -> 98,100[0m[m
+[0m2022-05-07 19:46:03 V/Bot.202898447: Friend(2598810411) <- [!!跳过!!](1, 1, 0)[!!跳过!!](1, 2, 1)[!!跳过!!](1, 3, 2)[!!跳过!!](1, 4, 3)[!!跳过!!](1, 5, 4)[!!跳过!!](1, 6, 5)[!!跳过!!](1, 7, 6)[!!跳过!!](1, 8, 7)[!!跳过!!](1, 9, 8)[!!跳过!!](1, 10, 9)[!!跳过!!](1, 11, 10)[!!跳过!!](1, 12, 11)[!!跳过!!](1, 13, 12)[!!跳过!!](1, 14, 13)[!!跳过!!](1, 15, 14)[!!跳过!!](1, 16, 15)[!!跳过!!](1, 17, 16)[!!跳过!!](1, 18, 17)[!!跳过!!](1, 19, 18)[!!跳过!!](1, 20, 19)[!!跳过!!](1, 21, 20)[!!跳过!!](1, 22, 21)[0m[m
+[0m2022-05-07 19:46:03 V/Bot.202898447: Friend(2598810411) <- 运行完毕![0m[m
+[0m2022-05-07 19:46:03 V/Bot.202898447: Friend(2598810411) <- 您的课程:\n\n[NO. 1] 完成度100% 新目标大学英语(第二版)综合教程1\n\n程序结束[0m[m
+[0m2022-05-07 19:47:23 V/Bot.202898447: Event: BotOfflineEvent.Active(bot=Bot(202898447), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@1378cf7b, reconnect=false)[0m[m
+[92m2022-05-07 19:47:23 I/Bot.202898447: Bot cancelled: Job was cancelled[0m[m
